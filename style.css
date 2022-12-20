@@ -1,0 +1,89 @@
+body {
+    width: 900px;
+    padding: 20px;
+    font-family: 'Patrick Hand', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    background-image: url('images/chien.jpg');
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+h1, h2 {
+    
+    margin-left : 20px;
+}
+
+section {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#choix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin: 30px;
+}
+
+.nombre {
+    display: flex;
+}
+.nombre p {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px double #F1CDC0;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1CDC0;
+    margin-left: 10px;
+
+}
+
+
+footer {
+    background-color: #F1CDC0;
+    height: 200px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input, select, button {
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
